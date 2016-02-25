@@ -1,0 +1,21 @@
+{
+  "editable": [
+    "app/*",
+    "test/test2.js"
+  ],
+  "includes": [
+    "test1.js",
+    "test2.js"
+  ],
+  "excludes": [
+    "test3.js"
+  ],
+  "envvars": {
+    "var1": true,
+    "var2": "defaultValue",
+    "var3": false,
+    "var4": 5
+  },
+  "allowNewFile": true,
+  "test": "mocha"
+}
